@@ -1,0 +1,12 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:hub="http://schemas.datacontract.org/2004/07/HubService2">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:SetAppointment>
+         <tem:idAppointment/>
+         <tem:idLpu/>
+         <tem:idPat/>
+         <tem:idAppointmentPrev/>
+         <tem:guid/>
+      </tem:SetAppointment>
+   </soapenv:Body>
+</soapenv:Envelope>

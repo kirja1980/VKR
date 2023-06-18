@@ -1,0 +1,13 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:GetAvaibleAppointments>
+         <tem:idDoc/>
+         <tem:idLpu/>
+         <tem:idPat/>
+         <tem:visitStart/>
+         <tem:visitEnd/>
+         <tem:guid/>
+      </tem:GetAvaibleAppointments>
+   </soapenv:Body>
+</soapenv:Envelope>

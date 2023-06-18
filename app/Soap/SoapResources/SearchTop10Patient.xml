@@ -1,0 +1,13 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:hub="http://schemas.datacontract.org/2004/07/HubService2">
+  <soapenv:Header/>
+  <soapenv:Body>
+     <tem:SearchTop10Patient>
+         <tem:pat>
+            <hub:Birthday/>
+            <hub:Snils/>
+         </tem:pat>
+         <tem:idLpu/>
+         <tem:guid/>
+     </tem:SearchTop10Patient>
+  </soapenv:Body>
+</soapenv:Envelope>

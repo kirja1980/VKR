@@ -1,0 +1,10 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">
+   <soap:Header/>
+   <soap:Body>
+      <tem:GetPatientHistory>
+         <tem:idLpu/>
+         <tem:idPat/>
+         <tem:guid/>
+      </tem:GetPatientHistory>
+   </soap:Body>
+</soap:Envelope>
